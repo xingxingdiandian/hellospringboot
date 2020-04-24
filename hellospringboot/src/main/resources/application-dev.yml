@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hellospringboot?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=true&useAffectedRows=true
+    username: root
+    password: QQQQ1111qqqq
+#MyBatisPlus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  type-aliases-package: com.example.hellospringboot.entity
