@@ -22,7 +22,7 @@
         <druid.version>1.1.19</druid.version>
         <mybatis-plus.version>3.1.2</mybatis-plus.version>
         <log4j>1.2.17</log4j>
-        <commons-fileupload>1.4</commons-fileupload>
+        <commons-fileupload>1.5</commons-fileupload>
         <springfox-swagger2>2.9.2</springfox-swagger2>
         <spring-tx>5.2.2.RELEASE</spring-tx>
     </properties>
